@@ -6,5 +6,5 @@ class Index(APIView):
     pass
 
 class Room(APIView):
-    def get(self, request, room):
+    def get(self, request, room_name):
         pass
