@@ -1,4 +1,7 @@
 from channels.generic.websocket import AsyncWebsocketConsumer
 
 class ChatRoomConsumer(AsyncWebsocketConsumer):
-    pass
+    async def connect(self):
+        await(
+            
+        )
